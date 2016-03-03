@@ -1,0 +1,4 @@
+parametername	parametervalue	parameterxposition	parameteryposition
+freq	0.015337	252.105286	345.815430
+frequencyRandomAmount	151.975677	909.000000	298.000000
+decay	0.110063	390.000000	178.747940

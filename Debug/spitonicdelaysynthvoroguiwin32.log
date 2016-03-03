@@ -1,0 +1,363 @@
+﻿Build started 3/2/2016 6:00:19 PM.
+     1>Project "D:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\spitonicdelaysynthvoroguiwin32.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\spitonic.AD5E4A2A.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"..\lib-src\portaudio\include" /I"..\lib-src\freeimage\Source\\" /I..\spiwavsetlib /I"..\lib-src\tonic\Tonic-master\Tonic-master\src" /I"..\lib-src\libsndfile\include" /I"..\lib-src\vorogui" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D PA_USE_ASIO=1 /D _UNICODE /D UNICODE /D __WINDOWS_DS__ /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\spitonicdelaysynthvoroguiwin32.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"..\lib-src\portaudio\include" /I"..\lib-src\freeimage\Source\\" /I..\spiwavsetlib /I"..\lib-src\tonic\Tonic-master\Tonic-master\src" /I"..\lib-src\libsndfile\include" /I"..\lib-src\vorogui" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D PA_USE_ASIO=1 /D _UNICODE /D UNICODE /D __WINDOWS_DS__ /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\spitonicdelaysynthvoroguiwin32.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "..\lib-src\vorogui\c_pointset.cpp" "..\lib-src\vorogui\c_vorogui.cpp" spitonicdelaysynthvoroguiwin32.cpp
+         spitonicdelaysynthvoroguiwin32.cpp
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spiwavsetlib\spiws_wavset.h(56): warning C4251: 'WavSet::wavsetname' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'WavSet'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spiwavsetlib\spiws_instrument.h(38): warning C4251: 'Instrument::wavsetvector' : class 'std::vector<WavSet *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Instrument'
+                 with
+                 [
+                     _Ty=WavSet *
+                 ]
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spiwavsetlib\spiws_instrument.h(39): warning C4251: 'Instrument::instrumentname' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Instrument'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spiwavsetlib\spiws_instrumentset.h(14): warning C4251: 'InstrumentSet::instrumentvector' : class 'std::vector<Instrument *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'InstrumentSet'
+                 with
+                 [
+                     _Ty=Instrument *
+                 ]
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spiwavsetlib\spiws_midieventset.h(16): warning C4251: 'MidiEventSet::midieventvector' : class 'std::vector<MidiEvent *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'MidiEventSet'
+                 with
+                 [
+                     _Ty=MidiEvent *
+                 ]
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spiwavsetlib\spiws_partition.h(21): warning C4251: 'Partition::miditrackname' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Partition'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spiwavsetlib\spiws_partition.h(22): warning C4251: 'Partition::partitionname' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Partition'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spiwavsetlib\spiws_partition.h(23): warning C4251: 'Partition::midieventsetvector' : class 'std::vector<MidiEventSet *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Partition'
+                 with
+                 [
+                     _Ty=MidiEventSet *
+                 ]
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spiwavsetlib\spiws_partitionset.h(24): warning C4251: 'PartitionSet::partitionvector' : class 'std::vector<Partition *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'PartitionSet'
+                 with
+                 [
+                     _Ty=Partition *
+                 ]
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spiwavsetlib\spiws_partitionset.h(25): warning C4251: 'PartitionSet::tempmidieventvector' : class 'std::vector<MidiEvent *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'PartitionSet'
+                 with
+                 [
+                     _Ty=MidiEvent *
+                 ]
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\toniccore.h(188): warning C4068: unknown pragma
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\arithmetic.h(51): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\arithmetic.h(234): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\monotostereopanner.h(45): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\rampedvalue.h(66): warning C4244: 'initializing' : conversion from 'TonicFloat' to 'unsigned long', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\rampedvalue.h(167): warning C4068: unknown pragma
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\rampedvalue.h(181): warning C4068: unknown pragma
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\delayutils.h(60): warning C4244: 'argument' : conversion from 'size_t' to 'TonicFloat', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\delayutils.h(73): warning C4018: '>=' : signed/unsigned mismatch
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\delayutils.h(75): warning C4018: '>=' : signed/unsigned mismatch
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\delayutils.h(98): warning C4018: '>=' : signed/unsigned mismatch
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\filterutils.h(35): warning C4244: '=' : conversion from 'double' to 'TonicFloat', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\filterutils.h(65): warning C4068: unknown pragma
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\tablelookuposc.h(112): warning C4244: '=' : conversion from 'double' to 'TonicFloat', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\sawtoothwave.h(92): warning C4244: '=' : conversion from 'double' to 'TonicFloat', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\filters.h(33): warning C4068: unknown pragma
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\filters.h(89): warning C4305: 'argument' : truncation from 'double' to 'TonicFloat'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\filters.h(401): warning C4068: unknown pragma
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\bitcrusher.h(43): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\bitcrusher.h(47): warning C4244: 'initializing' : conversion from 'float' to 'TonicInt32', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\adsr.h(99): warning C4800: 'TonicFloat' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\adsr.h(100): warning C4800: 'TonicFloat' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\adsr.h(101): warning C4800: 'TonicFloat' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\adsr.h(143): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\lfnoise.h(44): warning C4244: '=' : conversion from 'TonicFloat' to 'long', possible loss of data
+     1>c:\program files\microsoft visual studio 12.0\vc\include\algorithm(4108): warning C4244: 'argument' : conversion from 'long' to 'const float', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\lfnoise.h(45): warning C4244: '=' : conversion from 'const float' to 'long', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\lfnoise.h(52): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\controldelay.h(51): warning C4244: 'initializing' : conversion from 'TonicFloat' to 'unsigned int', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\controlfloor.h(23): warning C4244: '=' : conversion from 'int' to 'TonicFloat', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\controlmetro.h(42): warning C4305: 'argument' : truncation from 'double' to 'TonicFloat'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\controlmetrodivider.h(44): warning C4244: 'initializing' : conversion from 'TonicFloat' to 'unsigned int', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\controlstepper.h(48): warning C4800: 'TonicFloat' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\controlsnaptoscale.h(42): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\controlsnaptoscale.h(60): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\controlswitchertestsynth.h(58): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\controlswitchertestsynth.h(60): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\controlswitchertestsynth.h(69): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\controlswitchertestsynth.h(70): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\controlswitchertestsynth.h(78): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\controlswitchertestsynth.h(81): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\controlswitchertestsynth.h(85): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\controlswitchertestsynth.h(90): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\controlswitchertestsynth.h(94): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\controlswitchertestsynth.h(106): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\controlswitchertestsynth.h(113): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\controlswitcherexpsynth.h(61): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\controlswitcherexpsynth.h(73): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\controlswitcherexpsynth.h(74): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\controlswitcherexpsynth.h(83): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\controlswitcherexpsynth.h(86): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\controlswitcherexpsynth.h(90): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\controlswitcherexpsynth.h(97): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\controlswitcherexpsynth.h(103): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\controlswitcherexpsynth.h(115): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\controlswitcherexpsynth.h(124): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\basicsynth.h(48): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\simpleinstrumentsynth.h(60): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\simpleinstrumentsynth.h(63): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\stepsequencersynth.h(55): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\stepsequencersynth.h(71): warning C4305: 'argument' : truncation from 'double' to 'TonicFloat'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\stepsequencersynth.h(95): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\stepsequencersynth.h(98): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\stepsequencerexpsynth.h(59): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\stepsequencerexpsynth.h(77): warning C4305: 'argument' : truncation from 'double' to 'TonicFloat'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\stepsequencerexpsynth.h(116): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\stepsequencerexpsynth.h(119): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\stepsequencerbufferplayerexpsynth.h(57): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\stepsequencerbufferplayerexpsynth.h(69): warning C4244: 'argument' : conversion from 'sf_count_t' to 'unsigned int', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\stepsequencerbufferplayerexpsynth.h(100): warning C4244: 'argument' : conversion from 'sf_count_t' to 'unsigned int', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\stepsequencerbufferplayereffectexpsynth.h(53): warning C4244: 'argument' : conversion from 'sf_count_t' to 'unsigned int', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\stepsequencerbufferplayereffectexpsynth.h(73): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\stepsequencerbufferplayereffectexpsynth.h(184): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\stepsequencerbufferplayereffectexpsynth.h(185): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\stepsequencerbufferplayereffectexpsynth.h(187): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\stepsequencerbufferplayereffectexpsynth.h(188): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\stepsequencerbufferplayereffectexpsynth.h(191): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\stepsequencerbufferplayereffectexpsynth.h(199): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\stepsequencerbufferplayereffectexpsynth.h(238): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\eventssynth.h(73): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\eventssynth.h(78): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\eventssynth.h(93): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\eventssynth.h(100): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\eventsexpsynth.h(77): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\eventsexpsynth.h(82): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\eventsexpsynth.h(102): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\eventsexpsynth.h(109): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\eventsexpbufferplayersynth.h(65): warning C4244: 'argument' : conversion from 'sf_count_t' to 'unsigned int', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\eventsexpbufferplayersynth.h(95): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\eventsexpbufferplayersynth.h(100): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\eventsexpbufferplayersynth.h(121): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\eventsexpbufferplayersynth.h(124): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\eventsexpbufferplayersynth.h(131): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\eventsxznnsynth.h(49): warning C4305: 'argument' : truncation from 'double' to 'TonicFloat'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\eventsxznnsynth.h(51): warning C4305: 'argument' : truncation from 'double' to 'TonicFloat'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\eventsxznnsynth.h(86): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\eventsxznnsynth.h(91): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\eventsxznnsynth.h(111): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\eventsxznnsynth.h(116): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\eventsxznnsynth.h(119): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\eventsxznnsynth.h(131): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\eventsxznnsynth.h(136): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\eventsxznnsynth.h(139): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\bufferplayerexpsynth.h(52): warning C4244: 'argument' : conversion from 'sf_count_t' to 'unsigned int', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\bufferplayerexpsynth.h(61): warning C4244: 'argument' : conversion from 'sf_count_t' to 'unsigned int', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\bandlimitedoscillatorexpsynth.h(46): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\compressorduckingtestsynth.h(47): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\compressorduckingtestsynth.h(48): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\compressorduckingtestsynth.h(49): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\compressorduckingtestsynth.h(57): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\compressorduckingtestsynth.h(58): warning C4305: 'argument' : truncation from 'double' to 'TonicFloat'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\compressorduckingtestsynth.h(61): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\compressorduckingtestsynth.h(70): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\compressorduckingtestsynth.h(72): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\compressorduckingtestsynth.h(74): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\compressortestsynth.h(47): warning C4305: 'argument' : truncation from 'double' to 'TonicFloat'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\compressortestsynth.h(49): warning C4305: 'argument' : truncation from 'double' to 'TonicFloat'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\compressortestsynth.h(61): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\compressortestsynth.h(63): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\compressortestsynth.h(64): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\compressortestsynth.h(72): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\compressortestsynth.h(75): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\compressorexpsynth.h(48): warning C4305: 'argument' : truncation from 'double' to 'TonicFloat'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\compressorexpsynth.h(50): warning C4305: 'argument' : truncation from 'double' to 'TonicFloat'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\compressorexpsynth.h(64): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\compressorexpsynth.h(67): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\compressorexpsynth.h(69): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\compressorexpsynth.h(77): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\compressorexpsynth.h(80): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\controlsnaptoscaletestsynth.h(46): warning C4305: 'argument' : truncation from 'double' to 'TonicFloat'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\controlsnaptoscaletestsynth.h(72): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\controlsnaptoscaletestsynth.h(78): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\controlsnaptoscaletestsynth.h(80): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\controlsnaptoscaletestsynth.h(118): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\controlsnaptoscaletestsynth.h(122): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\controlsnaptoscaletestsynth.h(138): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\controlsnaptoscaleexpsynth.h(39): warning C4305: 'argument' : truncation from 'double' to 'TonicFloat'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\controlsnaptoscaleexpsynth.h(77): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\controlsnaptoscaleexpsynth.h(83): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\controlsnaptoscaleexpsynth.h(85): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\controlsnaptoscaleexpsynth.h(125): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\controlsnaptoscaleexpsynth.h(129): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\controlsnaptoscaleexpsynth.h(147): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\delaytestsynth.h(69): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\delaytestsynth.h(76): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\delayexpsynth.h(70): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\delayexpsynth.h(78): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\delayexpsynth.h(103): warning C4305: 'argument' : truncation from 'double' to 'TonicFloat'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\filterednoisesynth.h(65): warning C4305: 'argument' : truncation from 'double' to 'TonicFloat'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\filterednoisesynth.h(66): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\filterednoisesynth.h(72): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\filterednoisesynth.h(83): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\filterednoisesynth.h(90): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\filterednoisesynth.h(91): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\filterednoisesynth.h(92): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\filterednoisesynth.h(100): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\filterednoisesynth.h(103): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\filterexpsynth.h(53): warning C4244: 'argument' : conversion from 'sf_count_t' to 'unsigned int', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\filterexpsynth.h(77): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\filterexpsynth.h(78): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\filterexpsynth.h(80): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\filterexpsynth.h(81): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\filterexpsynth.h(84): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\filterexpsynth.h(87): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\filterexpsynth.h(88): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\filterexpsynth.h(90): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\filterexpsynth.h(91): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\filterexpsynth.h(94): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\filterexpsynth.h(97): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\filterexpsynth.h(99): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\filterexpsynth.h(140): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\filterexpsynth.h(141): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\filterexpsynth.h(146): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\filterexpsynth.h(151): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\lfnoisetestsynth.h(52): warning C4305: 'argument' : truncation from 'double' to 'TonicFloat'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\simplestepseqsynth.h(45): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\simplestepseqsynth.h(59): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\simplestepseqsynth.h(60): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\simplestepsequencerbufferplayersynth.h(50): warning C4244: 'argument' : conversion from 'sf_count_t' to 'unsigned int', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\simplestepsequencerbufferplayersynth.h(60): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\simplestepsequencerbufferplayersynth.h(83): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\simplestepsequencerbufferplayersynth.h(86): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\simplestepsequencerbufferplayersynth.h(89): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\simplestepsequencerbufferplayersynth.h(90): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\simplestepsequencerbufferplayersynth.h(93): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\simplestepsequencerbufferplayersynth.h(98): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\simplestepsequencerbufferplayersynth.h(99): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\simplestepsequencerbufferplayersynth.h(102): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\simplestepsequencerbufferplayersynth.h(107): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\simplestepsequencerbufferplayersynth.h(111): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\stereodelaytestsynth.h(47): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\stereodelaytestsynth.h(56): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\stereodelaytestsynth.h(57): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\stereodelaytestsynth.h(58): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\stereodelaytestsynth.h(59): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\stereodelaytestsynth.h(61): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\stereodelaytestsynth.h(63): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\synthsasgeneratorsdemosynth.h(46): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\synthsasgeneratorsdemosynth.h(48): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\synthsasgeneratorsexpsynth.h(47): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\synthsasgeneratorsexpsynth.h(49): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\xyspeedsynth.h(39): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\xyspeedsynth.h(43): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\spitonicdelaysynthvoroguiwin32.cpp(361): warning C4101: 'i' : unreferenced local variable
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\spitonicdelaysynthvoroguiwin32.cpp(860): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\spitonicdelaysynthvoroguiwin32.cpp(864): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\spitonicdelaysynthvoroguiwin32.cpp(920): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\string.h(294) : see declaration of 'wcscpy'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\spitonicdelaysynthvoroguiwin32.cpp(924): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\string.h(294) : see declaration of 'wcscpy'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\spitonicdelaysynthvoroguiwin32.cpp(950): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\spitonicdelaysynthvoroguiwin32.cpp(1083): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\spitonicdelaysynthvoroguiwin32.cpp(1099): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\spitonicdelaysynthvoroguiwin32.cpp(794): warning C4101: 'i' : unreferenced local variable
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\spitonicdelaysynthvoroguiwin32.cpp(1419): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\spitonicdelaysynthvoroguiwin32.cpp(1294): warning C4101: 'hFont' : unreferenced local variable
+         c_vorogui.cpp
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\toniccore.h(188): warning C4068: unknown pragma
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\arithmetic.h(51): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\arithmetic.h(234): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\monotostereopanner.h(45): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\rampedvalue.h(66): warning C4244: 'initializing' : conversion from 'TonicFloat' to 'unsigned long', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\rampedvalue.h(167): warning C4068: unknown pragma
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\rampedvalue.h(181): warning C4068: unknown pragma
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\delayutils.h(60): warning C4244: 'argument' : conversion from 'size_t' to 'TonicFloat', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\delayutils.h(73): warning C4018: '>=' : signed/unsigned mismatch
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\delayutils.h(75): warning C4018: '>=' : signed/unsigned mismatch
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\delayutils.h(98): warning C4018: '>=' : signed/unsigned mismatch
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\filterutils.h(35): warning C4244: '=' : conversion from 'double' to 'TonicFloat', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\filterutils.h(65): warning C4068: unknown pragma
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\tablelookuposc.h(112): warning C4244: '=' : conversion from 'double' to 'TonicFloat', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\sawtoothwave.h(92): warning C4244: '=' : conversion from 'double' to 'TonicFloat', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\filters.h(33): warning C4068: unknown pragma
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\filters.h(89): warning C4305: 'argument' : truncation from 'double' to 'TonicFloat'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\filters.h(401): warning C4068: unknown pragma
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\bitcrusher.h(43): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\bitcrusher.h(47): warning C4244: 'initializing' : conversion from 'float' to 'TonicInt32', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\adsr.h(99): warning C4800: 'TonicFloat' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\adsr.h(100): warning C4800: 'TonicFloat' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\adsr.h(101): warning C4800: 'TonicFloat' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\adsr.h(143): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\lfnoise.h(44): warning C4244: '=' : conversion from 'TonicFloat' to 'long', possible loss of data
+     1>c:\program files\microsoft visual studio 12.0\vc\include\algorithm(4108): warning C4244: 'argument' : conversion from 'long' to 'const float', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\lfnoise.h(45): warning C4244: '=' : conversion from 'const float' to 'long', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\lfnoise.h(52): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\controldelay.h(51): warning C4244: 'initializing' : conversion from 'TonicFloat' to 'unsigned int', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\controlfloor.h(23): warning C4244: '=' : conversion from 'int' to 'TonicFloat', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\controlmetro.h(42): warning C4305: 'argument' : truncation from 'double' to 'TonicFloat'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\controlmetrodivider.h(44): warning C4244: 'initializing' : conversion from 'TonicFloat' to 'unsigned int', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\controlstepper.h(48): warning C4800: 'TonicFloat' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\controlsnaptoscale.h(42): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\tonic\tonic-master\tonic-master\src\tonic\controlsnaptoscale.h(60): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\vorogui\c_vorogui.cpp(175): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\vorogui\c_vorogui.cpp(176): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\vorogui\c_vorogui.cpp(182): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\vorogui\c_vorogui.cpp(183): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\vorogui\c_vorogui.cpp(189): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\vorogui\c_vorogui.cpp(190): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\vorogui\c_vorogui.cpp(196): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\vorogui\c_vorogui.cpp(197): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\vorogui\c_vorogui.cpp(205): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\vorogui\c_vorogui.cpp(206): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\vorogui\c_vorogui.cpp(305): warning C4244: '=' : conversion from 'double' to 'LONG', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\vorogui\c_vorogui.cpp(306): warning C4244: '=' : conversion from 'double' to 'LONG', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\vorogui\c_vorogui.cpp(533): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\vorogui\c_vorogui.cpp(604): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\vorogui\c_vorogui.cpp(611): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\vorogui\c_vorogui.cpp(618): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\vorogui\c_vorogui.cpp(763): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\vorogui\c_vorogui.cpp(807): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+         c_pointset.cpp
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\vorogui\c_pointset.cpp(432): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\vorogui\c_pointset.cpp(772): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\vorogui\c_pointset.cpp(778): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\vorogui\c_pointset.cpp(784): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\vorogui\c_pointset.cpp(850): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\vorogui\c_pointset.cpp(899): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\vorogui\c_pointset.cpp(1467): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\vorogui\c_pointset.cpp(1638): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\vorogui\c_pointset.cpp(1852): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\vorogui\c_pointset.cpp(2547): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\vorogui\c_pointset.cpp(2548): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\vorogui\c_pointset.cpp(2559): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\vorogui\c_pointset.cpp(2560): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\vorogui\c_pointset.cpp(3461): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>d:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\lib-src\vorogui\c_pointset.cpp(3483): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\spitonicdelaysynthvoroguiwin32.res" spitonicdelaysynthvoroguiwin32.rc 
+       Link:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\Debug\spitonicdelaysynthvoroguiwin32.exe" /INCREMENTAL /NOLOGO "..\lib-src\freeimage\Dist\FreeImage.lib" winmm.lib ..\spiwavsetlib\debug\spiwavsetlib.lib "..\lib-src\portaudio\build\msvc\Win32\Debug\portaudio_x86.lib" "..\lib-src\tonic\Tonic-master\Tonic-master\lib\TonicLibVS2013\Debug\TonicLib.lib" Dsound.lib "..\lib-src\libsndfile\libsndfile-1.lib" Msimg32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\Debug\spitonicdelaysynthvoroguiwin32.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\Debug\spitonicdelaysynthvoroguiwin32.lib" /MACHINE:X86 Debug\spitonicdelaysynthvoroguiwin32.res
+         Debug\c_pointset.obj
+         Debug\c_vorogui.obj
+         Debug\spitonicdelaysynthvoroguiwin32.obj
+         Debug\stdafx.obj
+         spitonicdelaysynthvoroguiwin32.vcxproj -> D:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\Debug\spitonicdelaysynthvoroguiwin32.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\spitonic.AD5E4A2A.tlog\unsuccessfulbuild".
+         Touching "Debug\spitonic.AD5E4A2A.tlog\spitonicdelaysynthvoroguiwin32.lastbuildstate".
+     1>Done Building Project "D:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spitonicdelaysynthvoroguiwin32_vs2013\spitonicdelaysynthvoroguiwin32.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.27
